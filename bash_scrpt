@@ -1,0 +1,4 @@
+#!/bin/bash
+
+vi Email_content.txt
+python3 AutoEmail.py
