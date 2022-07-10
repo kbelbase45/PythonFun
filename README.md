@@ -1,2 +1,5 @@
-<h3>In this repository contains python files that I wrote just for fun.<h3>
-The Sending_Email_With_Python.ipynb file contains code and what the code should do. To fully automate the task, download AutoEmail.py, bash_scrpt, ErrorMsg.py in the same directory and just run the bash file using the “bash bash_scrpt” command.
+<h3>In this repository contains python files that I wrote just for fun.</h3><br><br>
+<h3>Send an email with Python script</h3>  
+<p>The files required to send an email using the Python script are Sending_Email_With_Python.ipynb and ErrorMsg.py. To fully automate the task download bash_script along with AutoEmail.py and ErrorMsg.py in the same directory and run 'bash bash_script' command in the terminal. In this project I used three modules os, smtplib and ssl, most of which come as built-in modules and therefore do not need to be installed additionally.</p> <br><br>
+<h3>Search all files in any given directory</h3>    
+<p>For this project, I am writing a Python script (search_files.py) that will search all files and directories that are in the given path. Later, all the filenames, filenames with different extension and the size of the files are written to the output files "Output_files.csv" and "All_extension.csv" as pandas date frames. This is a user-interactive program, which means that the program asks for information in the terminal and displays some information on the terminal. This is a simple but useful program that uses os,numpy, and pandas modules.</p>
