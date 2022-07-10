@@ -9,6 +9,7 @@ def initialization():
     print('|'+' This program finds any files in the given directory   '+'|')
     print('|'+' Input  = Name of a directory                          '+'|')
     print('|'+' Output = Files and all different extensions of files  '+'|')
+    print('|'+'        Output_files.csv and All_extension.csv produce '+'|')       )
     print('='*57)
     print()
 
@@ -78,7 +79,7 @@ def seperate_file_with_extension(files):
 
 def results():
     current_directory = print_current_dir()        
-    name = input(' Where to search files? Give a full path.\n\n ')
+    name = input(' Where to search files? Give a full path if it is not the current directory.\n\n ')
     files,path = get_from_directory(name)       
     seperate_file_with_extension(files)
     df = make_dataFrame(files,path)    
