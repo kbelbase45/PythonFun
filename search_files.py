@@ -24,7 +24,7 @@ def get_from_directory(name):
     if name == '.' or name == 'here':
         path_dir = os.getcwd()
     else:
-        base_dir = name
+        path_dir = name
         #path_dir = os.path.join(os.getenv('HOME'),base_dir+'/.')
     
     print(f' Files are searched in {path_dir}')
