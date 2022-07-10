@@ -1,0 +1,5 @@
+Dear Robert,
+I am writing this text for a practice of python coding. This text will be read by code and send to the sepcified receiver. 
+
+Sincerely,
+Captain America
