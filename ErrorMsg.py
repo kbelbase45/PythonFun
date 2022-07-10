@@ -1,4 +1,5 @@
-
+''' This file is being call from AutoEmail.py and Sending_Email_With_Python.ipynb to print
+    an error message. '''
 
 def error_msg(f):
        
