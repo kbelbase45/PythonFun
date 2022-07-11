@@ -1,14 +1,23 @@
 ''' 
-In this project, a circular ball bounces around a screen. A movement of the ball starts as soon as a user clicks anywhere on the canvas. For this project I used four methods of the graphics engine. The source code can be viewed in ~/.local/python3.6/site-packages/graphics.py depending on the operating system.
+In this project, a circular ball bounces around a screen. A movement of the ball starts as soon as 
+a user clicks anywhere on the canvas. For this project I used four methods of the graphics engine. 
+The source code can be viewed in ~/.local/python3.6/site-packages/graphics.py depending on the operating system.
 
 The constants function has parameters useful for setting up a canvas.
 
-The window_configuration function sets up the appearance of the canvas. When canvas_window.getMouse() is annotated in this section, no user click is required to start the movement. Internally, the coordinates of the window run from (x_min,y_min) in the lower left corner to (x_max,y_max) in the upper right corner. Four options of ['bold','normal','italic', 'bold italic'] are possible in label.setStyle. Four fonts from ['helvetica','arial','courier','times roman'] are possible in setFace. For the font size, the possible range is 5 <= size <= 36.
+The window_configuration function sets up the appearance of the canvas. When canvas_window.getMouse() is annotated
+in this section, no user click is required to start the movement. Internally, the coordinates of the window run from
+(x_min,y_min) in the lower left corner to (x_max,y_max) in the upper right corner. Four options of 
+['bold','normal','italic', 'bold italic'] are possible in label.setStyle. Four fonts from 
+['helvetica','arial','courier','times roman'] are possible in setFace. For the font size, the possible range is 5 <= size <= 36.
 
 The get_random_center() is supposed to randomly assign the center of the ball on the canvas.
-The make_ball function is responsible for designing the look of the ball. Finally, the make_ball_move function controls the ball's motion so that when the ball hits the walls, it bounces back onto the canvas. The walls look like ridges. The bounce conditions are specified within the if statement.
+The make_ball function is responsible for designing the look of the ball. Finally, the make_ball_move function controls 
+the ball's motion so that when the ball hits the walls, it bounces back onto the canvas. The walls look like ridges. 
+The bounce conditions are specified within the if statement.
 
-The ball movement and how long the time interval between two movements is are controlled with the parameters delay and value within range function.
+The ball movement and how long the time interval between two movements is are controlled with the parameters delay 
+and value within range function.
 '''
     
 from graphics import GraphWin, Text, Point, Circle    
