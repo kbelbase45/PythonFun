@@ -6,5 +6,5 @@
 <br><br>
 <h3>A simple Bouncing Ball Game</h3> 
 <p>
-For this project I used four methods - GraphWin, Text, Point, Circle - of  the graphics module and to generate random numbers the random module is used and the screen is kept away from the sleep using time module. The game starts as soon as the mouse is clicked on the canvas. The ball motion can be made faster and slower by changing the delay time as well as the increment values for dx, dy in the make_ball_move() function. Most of the code is self-explanatory, but a detailed explanation for each function is given at the beginning of the code. Related file is Bouncing_Ball_game.py
+For this project I used four methods - GraphWin, Text, Point, Circle - of  the graphics module. To generate random numbers the random module is used and the screen is kept away from the sleep using time module. The game starts as soon as the mouse is clicked on the canvas. The ball motion can be made faster and slower by changing the delay time as well as the increment values for dx, dy in the make_ball_move() function. Most of the code is self-explanatory, but a detailed explanation for each function is given at the beginning of the code. Related file is Bouncing_Ball_game.py
 </p>
