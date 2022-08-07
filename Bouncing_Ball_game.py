@@ -1,6 +1,6 @@
 ''' 
-In this project, a circular ball bounces around a screen. A movement of the ball starts as soon as 
-a user clicks anywhere on the canvas. For this project I used four methods of the graphics engine. 
+In this project, particles bounces in a box. A movement of the particles start as soon as 
+the user clicks anywhere on the canvas. For this project I used four methods of the graphics engine. 
 The source code can be viewed in ~/.local/python3.6/site-packages/graphics.py depending on the operating system.
 
 The constants function has parameters useful for setting up a canvas.
@@ -25,6 +25,9 @@ import time, random
 
 
 def constants():
+    ''' Define the size of box. The four corners of box are 
+        (x_min,y_min),(x_min,y_max),(x_max,y_min),(x_max,y_max)'''
+    
     x_min = 0
     y_min = 0
     x_max = 800
@@ -32,6 +35,8 @@ def constants():
     return x_min, y_min, x_max, y_max
 
 def window_configuration():
+    ''' Set the appearance of the box like color, window name, etc.'''
+    
     x_min, y_min, x_max, y_max = constants()
     canvas_window = GraphWin('Bouncing Ball by Kamal',x_max,y_max)
     canvas_window.setCoords(x_min,y_min,x_max,y_max)
