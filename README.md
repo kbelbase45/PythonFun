@@ -1,4 +1,4 @@
-<h3>In this repository contains python files that I wrote just for fun.</h3><br><br>
+<h3>Python files that are written just for fun.</h3><br><br>
 <h3>Send an email with Python script</h3>  
 <p>The files required to send an email using the Python script are Sending_Email_With_Python.ipynb and ErrorMsg.py. To fully automate the task download bash_script along with AutoEmail.py and ErrorMsg.py in the same directory and run 'bash bash_script' command in the terminal. In this project I used three modules os, smtplib and ssl, most of which come as built-in modules and therefore do not need to be installed additionally. Related files are AutoEmail.py, Email_content.txt, ErrorMsg.py, Sending_Email_With_Python.ipynp, bash_scrpt</p> <br><br>
 <h3>Search all files in any given directory</h3>    
